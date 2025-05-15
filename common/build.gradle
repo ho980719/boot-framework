@@ -3,12 +3,6 @@ plugins {
     id 'io.spring.dependency-management'
 }
 
-dependencyManagement {
-    imports {
-        mavenBom "org.springframework.boot:spring-boot-dependencies:3.4.5"
-    }
-}
-
 dependencies {
     implementation 'org.springframework:spring-web'
     implementation 'com.fasterxml.jackson.core:jackson-databind'
