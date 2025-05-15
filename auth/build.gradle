@@ -8,9 +8,8 @@ dependencies {
     implementation project(':config')
 
     implementation 'org.springframework.boot:spring-boot-starter-security'
-    implementation 'org.springframework.boot:spring-boot-starter-webflux'  // OAuth2 지원 및 WebClient 용
-    implementation 'org.springframework.security:spring-security-oauth2-client'
-    implementation 'org.springframework.security:spring-security-oauth2-jose'  // JWT 관련
-
-    implementation 'io.jsonwebtoken:jjwt:0.9.1'  // JWT 직접 처리용 (필요시)
+    implementation 'org.springframework.boot:spring-boot-starter-web'
+    implementation 'org.springframework.boot:spring-boot-starter-oauth2-client'
+    implementation 'org.springframework.cloud:spring-cloud-starter-netflix-eureka-client'
+    implementation 'io.jsonwebtoken:jjwt:0.9.1'
 }
