@@ -2,4 +2,5 @@ rootProject.name = 'boot-framework'
 include('discovery')
 include 'common'
 include 'config'
+include 'auth'
 
